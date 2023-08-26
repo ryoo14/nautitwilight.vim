@@ -14,11 +14,11 @@ function! s:build_palette() abort
   let tabfill  = ['#6f6f80', '#2b2b31']
   let normal   = ['#2b2b31', '#62a8bc']
   let error    = ['#2b2b31', '#ed692c']
-  let warn  = ['#2b2b31', '#27883e']
+  let warn     = ['#2b2b31', '#27883e']
   let insert   = ['#2b2b31', '#82ba90']
   let replace  = ['#2b2b31', '#af83ae']
   let visual   = ['#2b2b31', '#ed692c']
-  let tabsel   = ['#2b2b31', '#82a5ba']
+  let tabsel   = ['#2b2b31', '#62a8bc']
 
   let palette.normal.middle = [base]
   let palette.normal.left = [normal, gradient]

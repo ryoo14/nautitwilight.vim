@@ -43,7 +43,7 @@ hi Type guifg=#62a8bc
 hi Special guifg=#f6d2b6
 hi Underlined guifg=NONE
 hi Ignored guifg=#f6d2b6
-hi Error guifg=#ed692c
+hi Error guifg=#ed692c guibg=#19191d
 hi ErrorMsg guifg=#ed692c guibg=#19191d
 hi Todo guifg=#ed692c
 hi LineNr guifg=#403f4a guibg=#19191d

@@ -47,4 +47,7 @@ hi Error guifg=#ed692c guibg=#19191d
 hi ErrorMsg guifg=#ed692c guibg=#19191d
 hi Todo guifg=#ed692c
 hi LineNr guifg=#403f4a guibg=#19191d
+hi CursorLineNr guifg=#403f4a guibg=#19191d
 hi VertSplit guifg=#2b2b31
+hi Directory guifg=#62a8bc
+hi NonText guifg=#6f6f80

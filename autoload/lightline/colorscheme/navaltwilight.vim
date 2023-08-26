@@ -1,5 +1,5 @@
 function! s:build_palette() abort
-  let p = {
+  let palette = {
     \ 'normal':   {},
     \ 'inactive': {},
     \ 'insert':   {},

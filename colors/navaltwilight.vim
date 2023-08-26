@@ -40,7 +40,8 @@ hi Identifier guifg=#62a8bc
 hi Statement guifg=#4b78a0
 hi PreProc guifg=#f6d2b6
 hi Type guifg=#62a8bc
-hi Special guifg=#f6d2b6
+hi Special guifg=#62a8bc
+hi SpecialKey guifg=#62a8bc
 hi Underlined guifg=NONE
 hi Ignored guifg=#f6d2b6
 hi Error guifg=#ed692c guibg=#19191d

@@ -27,12 +27,12 @@ let g:colors_name = "navaltwilight"
 " #4b78a0 031
 " #7eacb9 006
 " #ed692c 203
-" #f29164 208
+" #f8996d 208
 " #f6d2b6 222
 
 hi Normal ctermfg=223 ctermbg=232 guifg=#f6d2b6 guibg=#19191d
 hi Comment ctermfg=245 guifg=#6f6f80
-hi Constant ctermfg=208 guifg=#f29164
+hi Constant ctermfg=208 guifg=#f8996d
 hi Identifier ctermfg=006 guifg=#7eacb9
 hi Statement ctermfg=031 guifg=#4b78a0
 hi PreProc ctermfg=222 guifg=#f6d2b6

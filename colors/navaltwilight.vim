@@ -56,6 +56,7 @@ hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu
 hi Title ctermfg=006 guifg=#4b78a0
 hi Visual term=reverse ctermbg=239 guibg=#403f4a
+hi Question ctermfg=031 guifg=#4b78a0
 
 " html
 hi! link htmlTag Title

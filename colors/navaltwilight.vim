@@ -8,20 +8,6 @@
 " Author:   ryoo <anana12185@gmail.com>
 " License:  MIT
 
-" Color Palet
-" Eerie Black    #19191D
-" Raisin Black   #2b2b31
-" Dark Liver     #403f4a
-" Rhythm         #6f6f80
-" Bdazzled Blue  #385a78
-" Blue Munsell   #32879e
-" #49aac5
-" Old Lavender   #755b74
-" Orange Red     #ed692c
-" Cadmium Orange #e7883e
-" #f29164
-" Desert Sand    #f6d2b6
-
 if !has('gui_running') && &t_Co < 256
   finish
 endif
@@ -33,22 +19,64 @@ endif
 
 let g:colors_name = "navaltwilight"
 
-hi Normal guifg=#f6d2b6 guibg=#19191d
-hi Comment guifg=#6f6f80
-hi Constant guifg=#f5a580
-hi Identifier guifg=#62a8bc
-hi Statement guifg=#4b78a0
-hi PreProc guifg=#f6d2b6
-hi Type guifg=#62a8bc
-hi Special guifg=#4b78a0
-hi SpecialKey guifg=#4b78a0
-hi Underlined guifg=NONE
-hi Ignored guifg=#f6d2b6
-hi Error guifg=#ed692c guibg=#19191d
-hi ErrorMsg guifg=#ed692c guibg=#19191d
-hi Todo guifg=#ed692c
-hi LineNr guifg=#403f4a guibg=#19191d
-hi CursorLineNr guifg=#403f4a guibg=#19191d
-hi VertSplit guifg=#2b2b31
-hi Directory guifg=#62a8bc
-hi NonText guifg=#6f6f80
+" Color Pallet
+" #19191d 232
+" #2b2b31 235
+" #403f4a 239
+" #6f6f80 245
+" #4b78a0 031
+" #7eacb9 006
+" #ed692c 203
+" #f29164 208
+" #f6d2b6 222
+
+hi Normal ctermfg=223 ctermbg=232 guifg=#f6d2b6 guibg=#19191d
+hi Comment ctermfg=245 guifg=#6f6f80
+hi Constant ctermfg=208 guifg=#f29164
+hi Identifier ctermfg=006 guifg=#7eacb9
+hi Statement ctermfg=031 guifg=#4b78a0
+hi PreProc ctermfg=222 guifg=#f6d2b6
+hi Type ctermfg=006 guifg=#7eacb9
+hi Special ctermfg=031 guifg=#4b78a0
+hi SpecialKey ctermfg=031 guifg=#4b78a0
+hi Underlined ctermfg=NONE guifg=NONE
+hi Ignored ctermfg=222 guifg=#f6d2b6
+hi Error ctermfg=203 ctermbg=232 guifg=#ed692c guibg=#19191d
+hi! link ErrorMsg Error
+hi Todo ctermfg=203 guifg=#ed692c
+hi LineNr ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
+hi! link CursorLineNr LineNr
+hi VertSplit ctermfg=235 guifg=#2b2b31
+hi Directory ctermfg=006 guifg=#7eacb9
+hi NonText ctermfg=245 guifg=#6f6f80
+hi StatusLine ctermfg=235 guifg=#2b2b31
+hi! link StatusLineNC StatusLine
+hi Pmenu ctermbg=235 guibg=#2b2b31
+hi! link PmenuSbar Pmenu
+hi! link PmenuThumb Pmenu
+hi Title ctermfg=006 guifg=#4b78a0
+hi Visual term=reverse ctermbg=239 guibg=#403f4a
+
+" html
+hi! link htmlTag Title
+hi! link htmlTagName Identifier
+
+" markdown
+hi! link mkdHeading Title
+hi! link mkdLink Title
+hi! link mkdURL Identifier
+hi mkdLineBreak ctermbg=235 guibg=#2b2b31
+
+" typescript
+hi! link typescriptFuncKeyword Statement
+hi! link typescriptGlobalObjects Statement
+hi! link typescriptIdentifier Statement
+hi! link typescriptVariable Statement
+hi! link typescriptVariableDeclaration Identifier
+hi! link typescriptNull Constant
+hi! link typescriptBraces Normal
+hi! link typescriptPredefinedType Constant
+hi! link typescriptTypeReference Constant
+hi! link typescriptObjectLiteral Constant
+hi! link typescriptBlock Identifier
+hi! link typescriptCacheMethod Identifier

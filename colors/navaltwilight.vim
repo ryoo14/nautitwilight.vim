@@ -31,6 +31,7 @@ let g:colors_name = "navaltwilight"
 " #f6d2b6 222
 
 hi Normal ctermfg=223 ctermbg=232 guifg=#f6d2b6 guibg=#19191d
+hi NonText ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
 hi Comment ctermfg=245 guifg=#6f6f80
 hi Constant ctermfg=208 guifg=#f8996d
 hi Identifier ctermfg=006 guifg=#7eacb9
@@ -46,7 +47,7 @@ hi! link ErrorMsg Error
 hi Todo ctermfg=203 guifg=#ed692c
 hi LineNr ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
 hi! link CursorLineNr LineNr
-hi VertSplit ctermfg=235 guifg=#2b2b31
+hi VertSplit cterm=NONE ctermfg=235 gui=NONE guifg=#2b2b31
 hi Directory ctermfg=006 guifg=#7eacb9
 hi NonText ctermfg=245 guifg=#6f6f80
 hi StatusLine ctermfg=235 guifg=#2b2b31
@@ -57,14 +58,27 @@ hi! link PmenuThumb Pmenu
 hi Title ctermfg=006 guifg=#4b78a0
 hi Visual term=reverse ctermbg=239 guibg=#403f4a
 hi Question ctermfg=031 guifg=#4b78a0
+hi SignColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
+hi FoldColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
+
+"vim
+hi! link vimUsrCmd Statement
+hi! link vimSep Normal
+hi! link vimParenSep Normal
+hi! link vimUserFunc Function
+hi! link vimIsCommand Function
+hi! link vimBracket Type
+hi! link vimNotation Type
+hi! link vimOption Type
+hi! link vimSetEqual Constant
 
 " html
 hi! link htmlTag Title
 hi! link htmlTagName Identifier
 
 " markdown
-hi! link mkdHeading Title
-hi! link mkdLink Title
+hi! link mkdHeading Statement
+hi! link mkdLink Statement
 hi! link mkdURL Identifier
 hi mkdLineBreak ctermbg=235 guibg=#2b2b31
 

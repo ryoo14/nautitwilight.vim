@@ -50,7 +50,7 @@ hi VertSplit ctermfg=235 guifg=#2b2b31
 hi Directory ctermfg=006 guifg=#7eacb9
 hi NonText ctermfg=245 guifg=#6f6f80
 hi StatusLine ctermfg=235 guifg=#2b2b31
-hi! link StatusLineNC StatusLine
+hi StatusLineNC ctermfg=239 guifg=#19191d
 hi Pmenu ctermbg=235 guibg=#2b2b31
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu

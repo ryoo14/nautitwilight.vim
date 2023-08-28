@@ -60,6 +60,11 @@ hi Visual term=reverse ctermbg=239 guibg=#403f4a
 hi Question ctermfg=031 guifg=#4b78a0
 hi SignColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
 hi FoldColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
+hi DiffAdd ctermbg=239 guibg=#403f4a
+hi DiffChange ctermbg=239 guibg=#403f4a
+hi DiffDelete ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
+hi DiffText cterm=reverse ctermbg=239 gui=reverse guibg=#403f4a
+hi Folded ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
 
 "vim
 hi! link vimUsrCmd Statement

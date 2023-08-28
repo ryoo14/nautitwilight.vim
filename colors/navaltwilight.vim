@@ -56,7 +56,8 @@ hi Pmenu ctermbg=235 guibg=#2b2b31
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu
 hi Title ctermfg=006 guifg=#4b78a0
-hi Visual term=reverse ctermbg=239 guibg=#403f4a
+hi Visual ctermbg=239 guibg=#403f4a
+hi CursorLine cterm=NONE ctermbg=235 gui=NONE guibg=#2b2b31
 hi Question ctermfg=031 guifg=#4b78a0
 hi SignColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
 hi FoldColumn ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d

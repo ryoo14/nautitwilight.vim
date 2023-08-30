@@ -53,4 +53,4 @@ function! s:build_palette() abort
   return palette
 endfunction
 
-let g:lightline#colorscheme#navaltwilight#palette = lightline#colorscheme#fill(s:build_palette())
+let g:lightline#colorscheme#nautitwilight#palette = lightline#colorscheme#fill(s:build_palette())

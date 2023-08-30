@@ -17,7 +17,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = "navaltwilight"
+let g:colors_name = "nautitwilight"
 
 " Color Pallet
 " #19191d 232
@@ -44,7 +44,7 @@ hi Underlined ctermfg=NONE guifg=NONE
 hi Ignored ctermfg=222 guifg=#f6d2b6
 hi Error ctermfg=203 ctermbg=232 guifg=#ed692c guibg=#19191d
 hi! link ErrorMsg Error
-hi Todo ctermfg=203 guifg=#ed692c
+hi Todo ctermfg=203 ctermbg=232 guifg=#ed692c guibg=#19191d
 hi LineNr ctermfg=239 ctermbg=232 guifg=#403f4a guibg=#19191d
 hi! link CursorLineNr LineNr
 hi VertSplit cterm=NONE ctermfg=235 gui=NONE guifg=#2b2b31
@@ -66,6 +66,7 @@ hi DiffChange ctermbg=239 guibg=#403f4a
 hi DiffDelete ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
 hi DiffText cterm=reverse ctermbg=239 gui=reverse guibg=#403f4a
 hi Folded ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
+hi MoreMsg ctermfg=031 guifg=#4b78a0
 
 "vim
 hi! link vimUsrCmd Statement

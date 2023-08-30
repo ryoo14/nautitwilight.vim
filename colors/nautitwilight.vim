@@ -89,6 +89,12 @@ hi! link mkdLink Statement
 hi! link mkdURL Identifier
 hi mkdLineBreak ctermbg=235 guibg=#2b2b31
 
+" bash
+hi! link Delimiter Normal
+hi! link shOperator Identifier
+hi! link shShellVariables Identifier
+hi! link shQuote Constant
+
 " typescript
 hi! link typescriptFuncKeyword Statement
 hi! link typescriptGlobalObjects Statement

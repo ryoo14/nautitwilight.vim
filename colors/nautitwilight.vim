@@ -20,7 +20,7 @@ endif
 let g:colors_name = "nautitwilight"
 
 " Color Pallet
-" #292933 233
+" #292933 235
 " #2b2b31 235
 " #403f4a 239
 " #6f6f80 245
@@ -31,8 +31,8 @@ let g:colors_name = "nautitwilight"
 " #f8996d 208
 " #f6d2b6 222
 
-hi Normal ctermfg=223 ctermbg=233 guifg=#f6d2b6 guibg=#292933
-hi NonText ctermfg=239 ctermbg=233 guifg=#403f4a guibg=#292933
+hi Normal ctermfg=223 ctermbg=235 guifg=#f6d2b6 guibg=#292933
+hi NonText ctermfg=239 ctermbg=235 guifg=#403f4a guibg=#292933
 hi Comment ctermfg=245 guifg=#6f6f80
 hi Constant ctermfg=208 guifg=#f8996d
 hi Identifier ctermfg=006 guifg=#7eacb9
@@ -43,12 +43,12 @@ hi Special ctermfg=031 guifg=#4b78a0
 hi SpecialKey ctermfg=031 guifg=#4b78a0
 hi Underlined ctermfg=NONE guifg=NONE
 hi Ignored ctermfg=222 guifg=#f6d2b6
-hi Search ctermfg=233 ctermbg=221 guifg=#292933 guibg=#f5dd90
+hi Search ctermfg=235 ctermbg=221 guifg=#292933 guibg=#f5dd90
 hi WarningMsg ctermfg=221 guifg=#f5dd90
-hi Error ctermfg=203 ctermbg=233 guifg=#ed692c guibg=#292933
+hi Error ctermfg=203 ctermbg=235 guifg=#ed692c guibg=#292933
 hi! link ErrorMsg Error
-hi Todo ctermfg=203 ctermbg=233 guifg=#ed692c guibg=#292933
-hi LineNr ctermfg=245 ctermbg=233 guifg=#6f6f80 guibg=#292933
+hi Todo ctermfg=203 ctermbg=235 guifg=#ed692c guibg=#292933
+hi LineNr ctermfg=245 ctermbg=235 guifg=#6f6f80 guibg=#292933
 hi! link CursorLineNr LineNr
 hi VertSplit cterm=NONE ctermfg=235 gui=NONE guifg=#2b2b31
 hi Directory ctermfg=006 guifg=#7eacb9
@@ -62,8 +62,8 @@ hi Title ctermfg=006 guifg=#4b78a0
 hi Visual ctermbg=239 guibg=#403f4a
 hi CursorLine cterm=NONE ctermbg=235 gui=NONE guibg=#2b2b31
 hi Question ctermfg=031 guifg=#4b78a0
-hi SignColumn ctermfg=239 ctermbg=233 guifg=#403f4a guibg=#292933
-hi FoldColumn ctermfg=239 ctermbg=233 guifg=#403f4a guibg=#292933
+hi SignColumn ctermfg=239 ctermbg=235 guifg=#403f4a guibg=#292933
+hi FoldColumn ctermfg=239 ctermbg=235 guifg=#403f4a guibg=#292933
 hi DiffAdd ctermbg=239 guibg=#403f4a
 hi DiffChange ctermbg=239 guibg=#403f4a
 hi DiffDelete ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a

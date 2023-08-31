@@ -1,16 +1,42 @@
 # Nautical Twilight
 
-nautitwilight.vim is colorscheme for Vim inspired by twilight.  
-This project is WIP.
-I envision the sky as below at twilight.  
-[GANREF](https://ganref.jp/m/uruma-neo/portfolios/photo_detail/238297)
+nautitwilight.vim is colorscheme for Vim inspired by [Nautical twilight](https://www.timeanddate.com/astronomy/nautical-twilight.html).  
 
 ## Screen shot
-![Screenshot](./screenshot.png)
+![readme](./screenshots/readme.png)
+
+![typescript](./screenshots/typescript.png)
+
+![ruby](./screenshots/ruby.png)
 
 ## Features
-It only support [lightline.vim](https://github.com/itchyny/lightline.vim).
+
+- Several filetypes(TypeScript, Ruby, etc)
+- 256 Colors
+- Terminal Colors
+- Status Line([itchyny/lightline.vim](https://github.com/itchyny/lightline.vim))
+
+## Installation
+
+Use [junegunn/vim-plug](https://github.com/junegunn/vim-plug).
+
+```vimscript
+Plug 'ryoo14/nautitwilight.vim'
+```
+
+Edit your .vimrc.
+
+```vimscript
+set termguicolors
+set background=dark
+colorscheme nautitwilight
+```
+
+If you use [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim), edit below.
+
+```vimscript
+let g:lightline = {'colorscheme' : 'nautitwilight'}
+```
 
 ## License
 MIT
-

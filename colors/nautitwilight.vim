@@ -27,6 +27,7 @@ let g:colors_name = "nautitwilight"
 " #4b78a0 031
 " #7eacb9 006
 " #ed692c 203
+" #f5dd90 221
 " #f8996d 208
 " #f6d2b6 222
 
@@ -42,6 +43,8 @@ hi Special ctermfg=031 guifg=#4b78a0
 hi SpecialKey ctermfg=031 guifg=#4b78a0
 hi Underlined ctermfg=NONE guifg=NONE
 hi Ignored ctermfg=222 guifg=#f6d2b6
+hi Search ctermfg=232 ctermbg=221 guifg=#19191d guibg=#f5dd90
+hi WarningMsg ctermfg=221 guifg=#f5dd90
 hi Error ctermfg=203 ctermbg=232 guifg=#ed692c guibg=#19191d
 hi! link ErrorMsg Error
 hi Todo ctermfg=203 ctermbg=232 guifg=#ed692c guibg=#19191d
@@ -68,7 +71,7 @@ hi DiffText cterm=reverse ctermbg=239 gui=reverse guibg=#403f4a
 hi Folded ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
 hi MoreMsg ctermfg=031 guifg=#4b78a0
 
-"vim
+" vim
 hi! link vimUsrCmd Statement
 hi! link vimSep Normal
 hi! link vimParenSep Normal
@@ -108,3 +111,7 @@ hi! link typescriptTypeReference Constant
 hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
+
+" fugitiv
+hi! link fugitiveUnstagedHeading Statement
+hi! link fugitiveStagedHeading Statement

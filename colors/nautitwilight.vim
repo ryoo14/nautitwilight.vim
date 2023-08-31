@@ -47,7 +47,7 @@ hi WarningMsg ctermfg=221 guifg=#f5dd90
 hi Error ctermfg=203 ctermbg=233 guifg=#ed692c guibg=#292933
 hi! link ErrorMsg Error
 hi Todo ctermfg=203 ctermbg=233 guifg=#ed692c guibg=#292933
-hi LineNr ctermfg=208 ctermbg=233 guifg=#6f6f80 guibg=#292933
+hi LineNr ctermfg=245 ctermbg=233 guifg=#6f6f80 guibg=#292933
 hi! link CursorLineNr LineNr
 hi VertSplit cterm=NONE ctermfg=235 gui=NONE guifg=#2b2b31
 hi Directory ctermfg=006 guifg=#7eacb9

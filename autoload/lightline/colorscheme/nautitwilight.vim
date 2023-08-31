@@ -18,7 +18,7 @@ function! s:build_palette() abort
 " #f6d2b6 222
 
   let base     = ['#6f6f80', '#2b2b31', '245', '235']
-  let edge     = ['#19191b', '#403f4a', '232', '239']
+  let edge     = ['#292933', '#403f4a', '233', '239']
   let gradient = ['#6f6f80', '#2b2b31', '245', '235']
   let nc       = ['#6f6f80', '#2b2b31', '245', '235']
   let tabfill  = ['#6f6f80', '#2b2b31', '245', '235']

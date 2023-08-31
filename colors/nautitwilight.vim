@@ -1,4 +1,3 @@
-"  _   _             _   _           _   _____          _ _ _       _     _   
 " | \ | | __ _ _   _| |_(_) ___ __ _| | |_   _|_      _(_) (_) __ _| |__ | |_ 
 " |  \| |/ _` | | | | __| |/ __/ _` | |   | | \ \ /\ / / | | |/ _` | '_ \| __|
 " | |\  | (_| | |_| | |_| | (_| (_| | |   | |  \ V  V /| | | | (_| | | | | |_ 
@@ -8,7 +7,7 @@
 " Author:   ryoo <anana12185@gmail.com>
 " License:  MIT
 
-if !has('gui_running') && &t_Co < 256
+if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
 endif
 

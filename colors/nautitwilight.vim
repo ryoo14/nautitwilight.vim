@@ -112,6 +112,14 @@ hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
 
+" ruby
+hi! link rubyInclude Statement
+hi! link rubyModule Statement
+hi! link rubyClass Statement
+hi! link rubyClassBlock Statement
+hi! link rubyDefine Statement
+hi! link rubyAccess WarningMsg
+
 " fugitive
 hi! link fugitiveUnstagedHeading Statement
 hi! link fugitiveStagedHeading Statement

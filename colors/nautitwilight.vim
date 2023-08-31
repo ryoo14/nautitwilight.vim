@@ -115,3 +115,4 @@ hi! link typescriptCacheMethod Identifier
 " fugitiv
 hi! link fugitiveUnstagedHeading Statement
 hi! link fugitiveStagedHeading Statement
+hi! link fugitiveHeading Statement

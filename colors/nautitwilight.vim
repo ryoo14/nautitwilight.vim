@@ -112,7 +112,7 @@ hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
 
-" fugitiv
+" fugitive
 hi! link fugitiveUnstagedHeading Statement
 hi! link fugitiveStagedHeading Statement
 hi! link fugitiveHeading Statement

@@ -35,7 +35,7 @@ hi Normal ctermfg=223 ctermbg=235 guifg=#f6d2b6 guibg=#292933
 hi NonText ctermfg=239 ctermbg=235 guifg=#403f4a guibg=#292933
 hi Comment ctermfg=245 guifg=#6f6f80
 hi Constant ctermfg=208 guifg=#f8996d
-hi Identifier ctermfg=006 guifg=#7eacb9
+hi Identifier cterm=NONE ctermfg=006 guifg=#7eacb9
 hi Statement ctermfg=031 guifg=#4b78a0
 hi PreProc ctermfg=222 guifg=#f6d2b6
 hi Type ctermfg=006 guifg=#7eacb9

@@ -111,6 +111,7 @@ hi! link typescriptTypeReference Constant
 hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
+hi! link typescriptCall Identifier
 
 " ruby
 hi! link rubyInclude Statement

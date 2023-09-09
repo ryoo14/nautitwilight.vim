@@ -32,7 +32,7 @@ set background=dark
 colorscheme nautitwilight
 ```
 
-If you use [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim), edit below.
+If you use [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim), edit as below.
 
 ```vimscript
 let g:lightline = {'colorscheme' : 'nautitwilight'}

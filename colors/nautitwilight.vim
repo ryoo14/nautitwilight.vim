@@ -112,6 +112,7 @@ hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
 hi! link typescriptCall Identifier
+hi! link typescriptEndColons Normal
 
 " ruby
 hi! link rubyInclude Statement

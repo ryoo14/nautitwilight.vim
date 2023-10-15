@@ -90,7 +90,7 @@ hi! link htmlTagName Identifier
 hi! link mkdHeading Statement
 hi! link mkdLink Statement
 hi! link mkdURL Identifier
-hi mkdLineBreak ctermbg=235 guibg=#2b2b31
+hi! link mkdLineBreak Comment
 
 " bash
 hi! link Delimiter Normal

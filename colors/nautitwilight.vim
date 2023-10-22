@@ -127,6 +127,9 @@ hi! link fugitiveUnstagedHeading Statement
 hi! link fugitiveStagedHeading Statement
 hi! link fugitiveHeading Statement
 
+" lsp
+hi! link LspWarningHighlight WarningMsg
+
 " terminal
 let g:terminal_ansi_colors = ['#292933', '#ed692c', '#4b78a0', '#f8996d', '#4b78a0', '#7eacb9', '#7eacb9', '#2b2b31', '#403f4a', '#ed692c', '#7eacb9',
       \ '#f8996d', '#4b78a0', '#7eacb9', '#7eacb9', '#2b2b31']

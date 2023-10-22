@@ -128,6 +128,7 @@ hi! link fugitiveStagedHeading Statement
 hi! link fugitiveHeading Statement
 
 " lsp
+hi! link LspWarningText WarningMsg
 hi! link LspWarningHighlight WarningMsg
 
 " terminal

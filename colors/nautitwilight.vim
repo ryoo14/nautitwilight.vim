@@ -103,6 +103,7 @@ hi! link typescriptFuncKeyword Statement
 hi! link typescriptGlobalObjects Statement
 hi! link typescriptIdentifier Statement
 hi! link typescriptVariable Statement
+hi! link typescriptCall Statement
 hi! link typescriptVariableDeclaration Identifier
 hi! link typescriptNull Constant
 hi! link typescriptBraces Normal
@@ -111,8 +112,8 @@ hi! link typescriptTypeReference Constant
 hi! link typescriptObjectLiteral Constant
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
-hi! link typescriptCall Identifier
 hi! link typescriptEndColons Normal
+hi! link typescriptObjectLiteral Normal
 
 " ruby
 hi! link rubyInclude Statement

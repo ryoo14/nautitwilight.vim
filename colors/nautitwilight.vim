@@ -114,6 +114,10 @@ hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier
 hi! link typescriptEndColons Normal
 hi! link typescriptObjectLiteral Normal
+hi! link typescriptArray Identifier
+hi! link typescriptDestructureVariable Identifier
+hi! link typescriptLoopParen Identifier
+hi! link typescriptConditionalParen Identifier
 
 " ruby
 hi! link rubyInclude Statement

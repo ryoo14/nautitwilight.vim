@@ -120,6 +120,7 @@ hi! link typescriptLoopParen Identifier
 hi! link typescriptConditionalParen Identifier
 hi! link typescriptLogicSymbols Identifier
 hi! link typescriptBinaryOp Identifier
+hi! link typescriptFuncCallArg Identifier
 
 " ruby
 hi! link rubyInclude Statement

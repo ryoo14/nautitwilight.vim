@@ -118,6 +118,7 @@ hi! link typescriptArray Identifier
 hi! link typescriptDestructureVariable Identifier
 hi! link typescriptLoopParen Identifier
 hi! link typescriptConditionalParen Identifier
+hi! link typescriptLogicSymbols Identifier
 
 " ruby
 hi! link rubyInclude Statement

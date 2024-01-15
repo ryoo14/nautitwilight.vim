@@ -1,6 +1,8 @@
 # Nautical Twilight
 
-<img src="logo.svg" width="50%">
+<p align="center">
+  <img src="logo.svg" width="50%">
+</p>
 
 nautitwilight.vim is colorscheme for Vim inspired by [Nautical twilight](https://www.timeanddate.com/astronomy/nautical-twilight.html).  
 

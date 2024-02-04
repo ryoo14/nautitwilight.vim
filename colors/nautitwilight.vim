@@ -110,7 +110,8 @@ hi! link typescriptNull Constant
 hi! link typescriptBraces Normal
 hi! link typescriptPredefinedType Constant
 hi! link typescriptTypeReference Constant
-hi! link typescriptObjectLiteral Identifier
+hi! link typescriptObjectLiteral Normal
+hi! link typescriptObjectLabel Identifier
 hi! link typescriptConsoleMethod Identifier
 hi! link typescriptBlock Identifier
 hi! link typescriptCacheMethod Identifier

@@ -123,6 +123,7 @@ hi! link typescriptConditionalParen Identifier
 hi! link typescriptLogicSymbols Identifier
 hi! link typescriptBinaryOp Identifier
 hi! link typescriptFuncCallArg Identifier
+hi! link typescriptClassName Identifier
 
 " ruby
 hi! link rubyInclude Statement

@@ -144,6 +144,13 @@ hi! link fugitiveHeading Statement
 hi! link LspWarningText WarningMsg
 hi! link LspWarningHighlight WarningMsg
 
+" etc
+hi! link htmlH1 Normal
+hi! link htmlH2 Normal
+hi! link htmlH3 Normal
+hi! link htmlH4 Normal
+hi! link htmlH5 Normal
+
 " terminal
 let g:terminal_ansi_colors = ['#292933', '#ed692c', '#4b78a0', '#f8996d', '#4b78a0', '#7eacb9', '#7eacb9', '#2b2b31', '#403f4a', '#ed692c', '#7eacb9',
       \ '#f8996d', '#4b78a0', '#7eacb9', '#7eacb9', '#2b2b31']

@@ -71,6 +71,7 @@ hi DiffDelete ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
 hi DiffText cterm=reverse ctermbg=239 gui=reverse guibg=#403f4a
 hi Folded ctermfg=245 ctermbg=239 guifg=#6f6f80 guibg=#403f4a
 hi MoreMsg ctermfg=031 guifg=#4b78a0
+hi WildMenu ctermfg=235 ctermbg=006 guifg=#292933 guibg=#7eacb9
 
 " vim
 hi! link vimUsrCmd Statement

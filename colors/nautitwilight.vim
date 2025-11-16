@@ -86,7 +86,9 @@ hi! link vimSetEqual Constant
 
 " html
 hi! link htmlTag Title
-hi! link htmlTagName Identifier
+hi! link htmlTagName Title
+hi! link htmlEndTag Title
+hi! link htmlArg Identifier
 
 " markdown
 hi! link mkdHeading Statement

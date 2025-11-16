@@ -89,6 +89,9 @@ hi! link htmlTag Title
 hi! link htmlTagName Title
 hi! link htmlEndTag Title
 hi! link htmlArg Identifier
+hi! link htmlTitle Identifier
+hi! link cssClassName Title
+hi! link cssClassNameDot Title
 
 " markdown
 hi! link mkdHeading Statement
